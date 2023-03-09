@@ -1,0 +1,82 @@
+body {
+
+    background-image: url(fondo.jpg);
+    background-size: cover;
+    background-size: 1350px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+  }
+
+.texto2 {
+position: relative;
+animation: texto2 0.5s ease-out;
+text-align: right; 
+font-weight: bold; 
+padding: 15px;
+}
+
+.texto3 {
+text-align: right; 
+font-weight: bold; 
+padding: 15px;
+position: relative;
+animation: texto3 0.5s ease-out;
+}
+
+
+.texto1 {
+padding: 15px;
+font-weight: bold;
+text-align: center;
+font-size: 35px;
+color: rgba(3,28,43,255);
+left: 50px;
+animation: texto1 1s ease-out;
+border-left: 5px solid #30b18a;
+}
+
+@keyframes texto1{
+
+    0%{opacity: 0;}
+    25%{opacity:0;}
+    50%{opacity:0;}
+    75%{opacity:0;}
+    100%{opacity:1;}
+}
+
+.desc {
+font-size: 20px;
+animation: desc 1.5s ease-out;
+}
+
+@keyframes desc{
+
+    0%{opacity: 0;}
+    25%{opacity:0;}
+    50%{opacity:0;}
+    75%{opacity:0;}
+    100%{opacity:1;}
+}
+
+.icon {
+animation: icon 2s ease-out;
+border-radius: 8px;
+}
+
+@keyframes icon{
+
+    0%{opacity: 0;}
+    25%{opacity:0;}
+    50%{opacity:0;}
+    75%{opacity:0;}
+    100%{opacity:1;}
+}
+
+.ima2{
+    transition: 0.5s;
+}
+    .ima2:hover{
+
+        transform:scale(1.2);
+    }
